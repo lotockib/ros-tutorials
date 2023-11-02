@@ -24,7 +24,7 @@ You must be running a fresh install of Ubuntu 16.04, or using a Udacity virtual 
 
 # Run
 
-1. In a terminal, run roscore
+1. Close all prior terminals. In a new terminal, run roscore
     ```bash
     roscore
     ```

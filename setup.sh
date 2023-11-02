@@ -37,3 +37,8 @@ sudo apt install ros-kinetic-desktop-full -y
 sudo rm -f /etc/ros/rosdep/sources.list.d/20-default.list
 sudo rosdep init --reinstall
 rosdep update --include-eol-distros
+
+# build workspace
+source /ros/opt/kinetic/setup.bash
+cd catkin_ws
+catkin_make
