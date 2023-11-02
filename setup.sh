@@ -25,9 +25,10 @@ sudo apt update
 
 # Install dependencies
 sudo apt install python-catkin-pkg python-rospkg -y
-sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential -y
+sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential ros-kinetic-rqt ros-kinetic-rqt-common-plugins -y
 pip install numpy pyyaml pyside2 pyqtgraph matplotlib pydot rospkg
 sudo apt install --reinstall libxcb-xinerama0 -y # workaround for issue on vm machine
+sudo apt-get install libcanberra-gtk-module:i386 # fix for issue on my vm machine
 
 # Install ros
 sudo apt install ros-kinetic-desktop-full -y
