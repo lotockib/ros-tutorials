@@ -99,5 +99,4 @@ fi
 #fi
 export PATH=/root/miniconda3/bin:/opt/pytorch/bin:/opt/utils/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/VirtualGL/bin:/opt/TurboVNC/bin:/opt/swift/swift-4.0.3-RELEASE-ubuntu16.04/usr/bin
 source /opt/ros/kinetic/setup.bash
-source /home/workspace/.student_bashrc
 export PS1="\W \u$ "
