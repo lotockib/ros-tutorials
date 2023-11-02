@@ -31,16 +31,14 @@ You must be running a fresh install of Ubuntu 16.04, or using a Udacity virtual 
 
 2. In a new terminal, run talker
     ```bash
-    roscd beginner_tutorials
-    cd ../../
+    cd /home/workspace/ros-tutorials (for udacity VM) or cd ~/ros-tutorials (for any other machine)
     source devel/setup.bash
     rosrun beginner_tutorials talker
     ```
 
 3. In a new terminal, run listener
     ```bash
-    roscd beginner_tutorials
-    cd ../../
+    cd /home/workspace/ros-tutorials (for udacity VM) or cd ~/ros-tutorials (for any other machine)
     source devel/setup.bash
     rosrun beginner_tutorials listener
-    ```    
+    ```
