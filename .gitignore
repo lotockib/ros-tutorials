@@ -1,5 +1,5 @@
 build/
 install/
-devel/lib/
-devel/include/
-devel/share/
+catkin_ws/devel/lib/
+catkin_ws/devel/include/
+catkin_ws/devel/share/
