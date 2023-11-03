@@ -3,7 +3,7 @@
   <name>turtlesim_brad</name>
   <version>0.7.1</version>
   <description>
-    turtlesim is a tool made for teaching ROS and ROS packages.
+    turtlesim_brad copied and edited from turtlesim https://github.com/ros/ros_tutorials/tree/kinetic-devel/turtlesim
   </description>
   <maintainer email="mabel@openrobotics.org">Mabel Zhang</maintainer>
   <maintainer email="sloretz@openrobotics.org">Shane Loretz</maintainer>
